@@ -5,27 +5,18 @@
 * Syntax highlighting
 * Auto-closing braces/quotes
 
-## Release Notes [0.1.0]
+## Release Notes [0.2.0]
 
-* First public release
+* Show Hovers
 
 ### Known Bugs
 
 ------
 
-### Next Milestone (unkown release date)
-
-* Source Code Snippets
-* recognizion of fractional reals
-
-### Missing Minor Features
-
-* recognizion of fractional reals
-
 ### Missing Major Features
 
+* recognizion of fractional reals
 * Source Code Snippets
-* Show Hovers
 * Code Completion Proposals
 
 ## Contributing
