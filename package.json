@@ -1,35 +1,46 @@
 {
-    "name": "nuxmvlangsupport",
-    "displayName": "Simple nuXmv Language Support",
-    "description": "Simple nuXmv Language Support for Visual Studio Code",
-    "version": "0.1.0",
-    "publisher": "simplenuxmvlanguagesupport",
-    "engines": {
-        "vscode": "^1.11.0"
-    },
-    "categories": [
-        "Languages"
-    ],
+  "name": "nuxmv-syntax",
+  "displayName": "nuXmv Syntax Highlighting",
+  "description": "VSCode syntax highlighting for nuXmv",
+  "version": "0.1.0",
+  "publisher": "dario-tortorici",
+  "engines": {
+    "vscode": "^1.11.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
     "license": "SEE LICENSE IN LICENSE.txt",
-    "contributes": {
-        "languages": [{
-            "id": "nuxmv",
-            "aliases": ["nuXmv", "nuxmv"],
-            "extensions": [".smv"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "nuxmv",
-            "scopeName": "source.nuxmv",
-            "path": "./syntaxes/nuXmv.tmLanguage.json"
-        }]
-    },
-    "homepage": "https://github.com/FelixEngl/SimpleNuxmvLanguageSupport/blob/master/README.md",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/FelixEngl/SimpleNuxmvLanguageSupport.git"
-    },
-    "bugs": {
-        "url": "https://github.com/FelixEngl/SimpleNuxmvLanguageSupport/issues"
-    }
+    "languages": [
+      {
+        "id": "nuxmv",
+        "aliases": [
+          "nuXmv",
+          "nuxmv"
+        ],
+        "extensions": [
+          ".smv"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "nuxmv",
+        "scopeName": "source.nuxmv",
+        "path": "./syntaxes/nuxmv.tmLanguage.json"
+      }
+    ]
+  },
+    "onLanguage:nuxmv"
+  ],
+  "homepage": "https://github.com/DarioTortorici//nuxmv-vscode-syntax",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DarioTortorici//nuxmv-vscode-syntax"
+  },
+  "bugs": {
+    "url": "https://github.com/DarioTortorici//nuxmv-vscode-syntax/issues"
+  }
 }
