@@ -1,0 +1,82 @@
+{
+  "Module Template": {
+    "prefix": "mod",
+    "body": [
+      "MODULE ${1:module_name}",
+      "VAR",
+      "  ${2:var_name} : ${3:type};",
+      "DEFINE",
+      "  ${4:macro_name} := ${5:expression};",
+      "INIT",
+      "  ${6:init_condition};",
+      "TRANS",
+      "  ${7:transition_relation};"
+    ]
+  },
+
+  "Variable Declaration": {
+    "prefix": "var",
+    "body": [
+      "VAR",
+      "  ${1:var_name} : ${2:type};"
+    ]
+  },
+
+  "Input Variable Declaration": {
+    "prefix": "ivar",
+    "body": [
+      "IVAR",
+      "  ${1:input_var} : ${2:type};"
+    ]
+  },
+
+  "Define Macro": {
+    "prefix": "def",
+    "body": [
+      "DEFINE",
+      "  ${1:name} := ${2:expression};"
+    ]
+  },
+
+  "INIT Block": {
+    "prefix": "init",
+    "body": [
+      "INIT",
+      "  ${1:initial_condition};"
+    ]
+  },
+
+  "TRANS Block": {
+    "prefix": "trans",
+    "body": [
+      "TRANS",
+      "  ${1:transition_relation};"
+    ]
+  },
+
+  "LTL Specification": {
+    "prefix": "ltl",
+    "body": [
+      "LTLSPEC",
+      "  ${1:G (p -> F q)};"
+    ]
+  },
+
+  "CTL Specification": {
+    "prefix": "ctl",
+    "body": [
+      "CTLSPEC",
+      "  ${1:EF p};"
+    ]
+  },
+
+  "Case Statement": {
+    "prefix": "case",
+    "body": [
+      "case",
+      "  ${1:condition} : ${2:result};",
+      "  TRUE : ${3:default};",
+      "esac"
+    ]
+  }
+}

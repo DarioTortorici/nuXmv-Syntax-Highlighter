@@ -1,27 +1,52 @@
-# nuXmv Syntax Higlighter VSCode extention
+# nuXmv Syntax Highlighter VSCode Extension
 
-## Features
+A Visual Studio Code extension for **nuXmv**, providing syntax highlighting, hovers, and code snippets to streamline your formal modeling workflow.
 
-* Syntax highlighting
-* Auto-closing braces/quotes
+## ✨ Features
 
-## Release Notes [0.2.0]
+- Syntax highlighting for `.smv` files
+- Auto-closing brackets and quotes
+- Hover information for keywords
+- Code Snippets for quick module and construct insertion
 
-* Show Hovers
+### 🚀 Snippets Available
 
-### Known Bugs
+You can now insert common nuXmv constructs using predefined snippets. Try typing the following prefixes in a `.smv` file and hit `Tab` or use `Ctrl+Space`:
 
-------
+| Prefix   | Description                   |
+|----------|-------------------------------|
+| `mod`    | Module template               |
+| `var`    | Variable declaration          |
+| `ivar`   | Input variable declaration    |
+| `def`    | Define macro                  |
+| `init`   | INIT block                    |
+| `trans`  | TRANS block                   |
+| `ltl`    | LTL specification             |
+| `ctl`    | CTL specification             |
+| `case`   | Case statement                |
 
-### Missing Major Features
+---
 
-* recognizion of fractional reals
-* Source Code Snippets
-* Code Completion Proposals
+## 📦 Release Notes
+
+### 0.2.0
+
+- Added support for code snippets
+
+### 0.1.1
+
+- Added hover support for common nuXmv keywords
+
+## Missing Features
+
+- Recognizion of fractional reals
+- Code Completion Proposals
+
+---
 
 ## Contributing
 
-Contributions are welcome and appreciated! Whether you're fixing a bug, adding a new feature, or improving documentation, here's how you can help:
+We welcome contributions!
 
 ### How to Contribute
 
@@ -46,15 +71,15 @@ Contributions are welcome and appreciated! Whether you're fixing a bug, adding a
 
 ### Contribution Guidelines
 
-* Use clear and descriptive commit messages
-* Follow the structure and formatting of existing code
-* Try to keep pull requests focused (one fix or feature at a time)
-* Check for spelling and grammar if editing documentation
-* If you're adding a new keyword or feature, update the syntax files as needed
+- Use clear and descriptive commit messages
+- Follow the structure and formatting of existing code
+- Try to keep pull requests focused (one fix or feature at a time)
+- Check for spelling and grammar if editing documentation
+- If you're adding a new keyword or feature, update the syntax files as needed
 
-### Maintainers
+## Maintainers
 
-* [Dario Tortorici](https://github.com/DarioTortorici)
+- [Dario Tortorici](https://github.com/DarioTortorici)
 
 ## License
 
