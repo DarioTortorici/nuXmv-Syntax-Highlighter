@@ -29,6 +29,10 @@ You can now insert common nuXmv constructs using predefined snippets. Try typing
 
 ## 📦 Release Notes
 
+### 0.2.1
+
+- The 'case' snippet, which did not have a semicolon, has now been fixed.
+
 ### 0.2.0
 
 - Added support for code snippets

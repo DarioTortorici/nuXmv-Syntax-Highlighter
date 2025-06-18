@@ -76,7 +76,7 @@
       "case",
       "  ${1:condition} : ${2:result};",
       "  TRUE : ${3:default};",
-      "esac"
+      "esac;"
     ]
   }
 }

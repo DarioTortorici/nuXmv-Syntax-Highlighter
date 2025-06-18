@@ -2,7 +2,7 @@
   "name": "nuxmv-syntax",
   "displayName": "nuXmv Syntax Highlighting",
   "description": "VSCode syntax highlighting for nuXmv",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "publisher": "dario-tortorici",
   "engines": {
     "vscode": "^1.11.0"
